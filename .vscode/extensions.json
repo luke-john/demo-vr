@@ -1,0 +1,7 @@
+{
+  "extenstions": [
+    "flowtype.flow-for-vscode",
+    "EditorConfig.editorconfig",
+    "esbenp.prettier-vscode"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "testRegex": "(/__vr-tests__/.*|(\\.|/)(vr-test))\\.(tsx?)$",
+  "setupTestFrameworkScriptFile": "./vr-test/test-framework-setup.js",
+  "globalSetup": "<rootDir>/vr-test/global-setup.js",
+  "globalTeardown": "<rootDir>/vr-test/global-teardown.js",
+  "testEnvironment": "<rootDir>/vr-test/test-environment.js",
+
+  "roots": ["../"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest",
+    "\\.(jpg|jpeg|png|svg)$": "<rootDir>/vr-test/assets-transformer.js"
+  },
+  "moduleFileExtensions": ["js", "ts", "tsx", "json", "node"]
+}
